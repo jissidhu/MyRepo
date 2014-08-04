@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- This is a comment --> 
+<suite name="Yahoo">
+
+<test name="Simple Yahoo Test">
+	<classes>
+		<class name="test.SampleTest"></class>
+	</classes>
+</test>
+
+<test name="Yahoo Test">
+	<classes>
+		<class name="test.YahooTest"></class>
+	</classes>
+</test>
+
+<test name="Yahoo Register Test">
+	<classes>
+		<class name="test.YahooRegistrationTest"></class>
+	</classes>
+</test>
+
+<test name="Yahoo Assert Test">
+	<classes>
+		<class name="test.assertExample"></class>
+	</classes>
+</test>
+   
+</suite>

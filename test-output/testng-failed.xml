@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <test name="Yahoo Assert Test(failed)">
+    <classes>
+      <class name="test.YahooTest">
+        <methods>
+          <include name="testSkipExecution"/>
+        </methods>
+      </class> <!-- test.YahooTest -->
+      <class name="test.SampleTest">
+        <methods>
+          <include name="openDBConnection"/>
+          <include name="closeBrowser"/>
+          <include name="closeDBConnection"/>
+          <include name="initializeSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test.SampleTest -->
+      <class name="test.assertExample">
+        <methods>
+          <include name="testYahooAssertApp"/>
+        </methods>
+      </class> <!-- test.assertExample -->
+    </classes>
+  </test> <!-- Yahoo Assert Test(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->

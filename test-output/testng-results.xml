@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="64" started-at="2014-08-01T23:23:03Z" finished-at="2014-08-01T23:23:03Z">
+    <groups>
+    </groups>
+    <test name="Simple Yahoo Test" duration-ms="10" started-at="2014-08-01T23:23:03Z" finished-at="2014-08-01T23:23:03Z">
+      <class name="test.SampleTest">
+        <test-method status="PASS" signature="openDBConnection()[pri:0, instance:test.SampleTest@5a01ccaa]" name="openDBConnection" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDBConnection -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SampleTest@5a01ccaa]" name="openBrowser" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testSampleAppLogin()[pri:0, instance:test.SampleTest@5a01ccaa]" name="testSampleAppLogin" duration-ms="1" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleAppLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SampleTest@5a01ccaa]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SampleTest@5a01ccaa]" name="openBrowser" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testSampleAppLogout()[pri:0, instance:test.SampleTest@5a01ccaa]" name="testSampleAppLogout" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleAppLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SampleTest@5a01ccaa]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:test.SampleTest@5a01ccaa]" name="closeDBConnection" is-config="true" duration-ms="0" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- test.SampleTest -->
+    </test> <!-- Simple Yahoo Test -->
+    <test name="Yahoo Test" duration-ms="3" started-at="2014-08-01T23:23:03Z" finished-at="2014-08-01T23:23:03Z">
+      <class name="test.YahooTest">
+        <test-method status="PASS" signature="testSkipExecution()[pri:0, instance:test.YahooTest@58ceff1]" name="testSkipExecution" is-config="true" duration-ms="1" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipExecution -->
+        <test-method status="PASS" signature="testYahooApp()[pri:0, instance:test.YahooTest@58ceff1]" name="testYahooApp" duration-ms="2" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahooApp -->
+      </class> <!-- test.YahooTest -->
+    </test> <!-- Yahoo Test -->
+    <test name="Yahoo Register Test" duration-ms="5" started-at="2014-08-01T23:23:03Z" finished-at="2014-08-01T23:23:03Z">
+      <class name="test.YahooRegistrationTest">
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@1e643faf]" name="testRegister" duration-ms="2" started-at="2014-08-02T09:23:03Z" data-provider="registerData" finished-at="2014-08-02T09:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@1e643faf]" name="testRegister" duration-ms="0" started-at="2014-08-02T09:23:03Z" data-provider="registerData" finished-at="2014-08-02T09:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@1e643faf]" name="testRegister" duration-ms="0" started-at="2014-08-02T09:23:03Z" data-provider="registerData" finished-at="2014-08-02T09:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+      </class> <!-- test.YahooRegistrationTest -->
+    </test> <!-- Yahoo Register Test -->
+    <test name="Yahoo Assert Test" duration-ms="1" started-at="2014-08-01T23:23:03Z" finished-at="2014-08-01T23:23:03Z">
+      <class name="test.SampleTest">
+        <test-method status="PASS" signature="initializeSelenium()[pri:0, instance:test.SampleTest@5a01ccaa]" name="initializeSelenium" is-config="true" duration-ms="12" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSelenium -->
+        <test-method status="PASS" signature="shutDownSelenium()[pri:0, instance:test.SampleTest@5a01ccaa]" name="shutDownSelenium" is-config="true" duration-ms="1" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownSelenium -->
+      </class> <!-- test.SampleTest -->
+      <class name="test.assertExample">
+        <test-method status="PASS" signature="testYahooAssertApp()[pri:0, instance:test.assertExample@7f63425a]" name="testYahooAssertApp" duration-ms="1" started-at="2014-08-02T09:23:03Z" finished-at="2014-08-02T09:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahooAssertApp -->
+      </class> <!-- test.assertExample -->
+    </test> <!-- Yahoo Assert Test -->
+  </suite> <!-- Yahoo -->
+</testng-results>
